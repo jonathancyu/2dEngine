@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/Math/Matrix.h
+string
+-
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Box.cpp
+Box.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Box.h
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Box.h
+Entity.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Entity.h
+SDL2/SDL.h
+-
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Entity.h
+list
+-
+string
+-
+SDL2/SDL.h
+-
+Math/Vector2.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Math/Vector2.h
+Math/Quaternion.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Math/Quaternion.h
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Math/Quaternion.h
+Math/Matrix.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Math/Math/Matrix.h
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Math/Vector2.h
+vector
+-
+string
+-
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Physics.cpp
+Physics.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Physics.h
+Math/Vector2.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Math/Vector2.h
+list
+-
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Physics.h
+Entity.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Entity.h
+list
+-
+

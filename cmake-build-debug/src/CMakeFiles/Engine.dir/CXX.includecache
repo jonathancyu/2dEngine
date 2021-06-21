@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Vector.h
+vector
+-
+string
+-
+
+C:/Users/yucjo/Documents/2021 summer/Engine/src/main.cpp
+iostream
+-
+../lib/Vector.h
+C:/Users/yucjo/Documents/2021 summer/Engine/lib/Vector.h
+

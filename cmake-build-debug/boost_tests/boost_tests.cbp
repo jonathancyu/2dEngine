@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="boost_tests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\google_tests\;CMake Files\google_tests\lib\;CMake Files\google_tests\lib\googlemock\;CMake Files\google_tests\lib\googlemock\cmake\;CMake Files\google_tests\lib\googletest\;CMake Files\google_tests\lib\googletest\cmake\;CMake Files\boost_tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/yucjo/Documents/2021 summer/Engine/cmake-build-debug/boost_tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/yucjo/Documents/2021 summer/Engine/cmake-build-debug/boost_tests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/yucjo/Documents/2021 summer/Engine/cmake-build-debug/boost_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/yucjo/Documents/2021 summer/Engine/cmake-build-debug/boost_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/yucjo/Documents/2021 summer/Engine/cmake-build-debug/boost_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\google_tests\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\google_tests\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\google_tests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\google_tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/google_tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/Engine/boost_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost_tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

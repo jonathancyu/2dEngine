@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc liblibraries.a CMakeFiles/libraries.dir/Math/Vector2.cpp.obj CMakeFiles/libraries.dir/Math/Matrix.cpp.obj CMakeFiles/libraries.dir/Math/Quaternion.cpp.obj CMakeFiles/libraries.dir/Physics.cpp.obj CMakeFiles/libraries.dir/Box.cpp.obj
+C:\MinGW\bin\ranlib.exe liblibraries.a
