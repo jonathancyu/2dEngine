@@ -9,9 +9,9 @@
 Matrix::Matrix(int r, int c) {
     rows = r;
     columns = c;
-    values = new float*[r];
+    values = new double*[r];
     for (int i = 0; i < r; i++) {
-        values[i] = new float[c];
+        values[i] = new double[c];
         for (int j = 0; j < c; j++) {
             values[i][j] = 0;
         }
@@ -21,7 +21,7 @@ Matrix::Matrix(int r, int c) {
 Matrix::Matrix(int d) : Matrix(d, d) {};
 Matrix::Matrix() : Matrix(3, 3) {};
 
-Matrix::Matrix(int r, int c, float **vals) {
+Matrix::Matrix(int r, int c, double **vals) {
     rows = r;
     columns = c;
     values = vals;
@@ -40,7 +40,7 @@ Matrix Matrix::operator*(Matrix rhs) {
         Matrix result = Matrix(rows, rhs.columns);
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < rhs.columns; j++) {
-                float dot = 0.f;
+                double dot = 0.f;
                 for (int k = 0; k < columns; k++) {
                     dot += values[i][k] * rhs[k][j];
                 }
@@ -52,7 +52,7 @@ Matrix Matrix::operator*(Matrix rhs) {
     return {};
 }
 
-float* Matrix::operator[](int r) {
+double* Matrix::operator[](int r) {
     return values[r];
 }
 

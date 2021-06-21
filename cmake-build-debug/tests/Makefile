@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\yucjo\Documents\2021 summer\Engine"
+CMAKE_SOURCE_DIR = "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\tests\\CMakeFiles\progress.marks"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\tests\\CMakeFiles\progress.marks"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/clean
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/catch_tests_run.dir/rule:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/catch_tests_run.dir/rule
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/catch_tests_run.dir/rule
 .PHONY : tests/CMakeFiles/catch_tests_run.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ catch_tests_run: tests/CMakeFiles/catch_tests_run.dir/rule
 
 # fast build rule for target.
 catch_tests_run/fast:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/build
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/build
 .PHONY : catch_tests_run/fast
 
 CollisionTests.obj: CollisionTests.cpp.obj
@@ -149,7 +149,7 @@ CollisionTests.obj: CollisionTests.cpp.obj
 
 # target to build an object file
 CollisionTests.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.obj
 .PHONY : CollisionTests.cpp.obj
 
 CollisionTests.i: CollisionTests.cpp.i
@@ -158,7 +158,7 @@ CollisionTests.i: CollisionTests.cpp.i
 
 # target to preprocess a source file
 CollisionTests.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.i
 .PHONY : CollisionTests.cpp.i
 
 CollisionTests.s: CollisionTests.cpp.s
@@ -167,7 +167,7 @@ CollisionTests.s: CollisionTests.cpp.s
 
 # target to generate assembly for a file
 CollisionTests.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.s
 .PHONY : CollisionTests.cpp.s
 
 MathTests.obj: MathTests.cpp.obj
@@ -176,7 +176,7 @@ MathTests.obj: MathTests.cpp.obj
 
 # target to build an object file
 MathTests.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.obj
 .PHONY : MathTests.cpp.obj
 
 MathTests.i: MathTests.cpp.i
@@ -185,7 +185,7 @@ MathTests.i: MathTests.cpp.i
 
 # target to preprocess a source file
 MathTests.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.i
 .PHONY : MathTests.cpp.i
 
 MathTests.s: MathTests.cpp.s
@@ -194,7 +194,7 @@ MathTests.s: MathTests.cpp.s
 
 # target to generate assembly for a file
 MathTests.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.s
 .PHONY : MathTests.cpp.s
 
 catch_amalgamated.obj: catch_amalgamated.cpp.obj
@@ -203,7 +203,7 @@ catch_amalgamated.obj: catch_amalgamated.cpp.obj
 
 # target to build an object file
 catch_amalgamated.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.obj
 .PHONY : catch_amalgamated.cpp.obj
 
 catch_amalgamated.i: catch_amalgamated.cpp.i
@@ -212,7 +212,7 @@ catch_amalgamated.i: catch_amalgamated.cpp.i
 
 # target to preprocess a source file
 catch_amalgamated.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.i
 .PHONY : catch_amalgamated.cpp.i
 
 catch_amalgamated.s: catch_amalgamated.cpp.s
@@ -221,7 +221,7 @@ catch_amalgamated.s: catch_amalgamated.cpp.s
 
 # target to generate assembly for a file
 catch_amalgamated.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\catch_tests_run.dir\build.make tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.s
 .PHONY : catch_amalgamated.cpp.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

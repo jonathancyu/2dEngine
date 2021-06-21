@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\yucjo\Documents\2021 summer\Engine"
+CMAKE_SOURCE_DIR = "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\lib\\CMakeFiles\progress.marks"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\lib\\CMakeFiles\progress.marks"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/clean
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/libraries.dir/rule:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/libraries.dir/rule
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/libraries.dir/rule
 .PHONY : lib/CMakeFiles/libraries.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ libraries: lib/CMakeFiles/libraries.dir/rule
 
 # fast build rule for target.
 libraries/fast:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/build
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/build
 .PHONY : libraries/fast
 
 Box.obj: Box.cpp.obj
@@ -149,7 +149,7 @@ Box.obj: Box.cpp.obj
 
 # target to build an object file
 Box.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Box.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Box.cpp.obj
 .PHONY : Box.cpp.obj
 
 Box.i: Box.cpp.i
@@ -158,7 +158,7 @@ Box.i: Box.cpp.i
 
 # target to preprocess a source file
 Box.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Box.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Box.cpp.i
 .PHONY : Box.cpp.i
 
 Box.s: Box.cpp.s
@@ -167,7 +167,7 @@ Box.s: Box.cpp.s
 
 # target to generate assembly for a file
 Box.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Box.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Box.cpp.s
 .PHONY : Box.cpp.s
 
 Math/Matrix.obj: Math/Matrix.cpp.obj
@@ -176,7 +176,7 @@ Math/Matrix.obj: Math/Matrix.cpp.obj
 
 # target to build an object file
 Math/Matrix.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.obj
 .PHONY : Math/Matrix.cpp.obj
 
 Math/Matrix.i: Math/Matrix.cpp.i
@@ -185,7 +185,7 @@ Math/Matrix.i: Math/Matrix.cpp.i
 
 # target to preprocess a source file
 Math/Matrix.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.i
 .PHONY : Math/Matrix.cpp.i
 
 Math/Matrix.s: Math/Matrix.cpp.s
@@ -194,7 +194,7 @@ Math/Matrix.s: Math/Matrix.cpp.s
 
 # target to generate assembly for a file
 Math/Matrix.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.s
 .PHONY : Math/Matrix.cpp.s
 
 Math/Quaternion.obj: Math/Quaternion.cpp.obj
@@ -203,7 +203,7 @@ Math/Quaternion.obj: Math/Quaternion.cpp.obj
 
 # target to build an object file
 Math/Quaternion.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.obj
 .PHONY : Math/Quaternion.cpp.obj
 
 Math/Quaternion.i: Math/Quaternion.cpp.i
@@ -212,7 +212,7 @@ Math/Quaternion.i: Math/Quaternion.cpp.i
 
 # target to preprocess a source file
 Math/Quaternion.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.i
 .PHONY : Math/Quaternion.cpp.i
 
 Math/Quaternion.s: Math/Quaternion.cpp.s
@@ -221,7 +221,7 @@ Math/Quaternion.s: Math/Quaternion.cpp.s
 
 # target to generate assembly for a file
 Math/Quaternion.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.s
 .PHONY : Math/Quaternion.cpp.s
 
 Math/Vector2.obj: Math/Vector2.cpp.obj
@@ -230,7 +230,7 @@ Math/Vector2.obj: Math/Vector2.cpp.obj
 
 # target to build an object file
 Math/Vector2.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.obj
 .PHONY : Math/Vector2.cpp.obj
 
 Math/Vector2.i: Math/Vector2.cpp.i
@@ -239,7 +239,7 @@ Math/Vector2.i: Math/Vector2.cpp.i
 
 # target to preprocess a source file
 Math/Vector2.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.i
 .PHONY : Math/Vector2.cpp.i
 
 Math/Vector2.s: Math/Vector2.cpp.s
@@ -248,7 +248,7 @@ Math/Vector2.s: Math/Vector2.cpp.s
 
 # target to generate assembly for a file
 Math/Vector2.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.s
 .PHONY : Math/Vector2.cpp.s
 
 Physics.obj: Physics.cpp.obj
@@ -257,7 +257,7 @@ Physics.obj: Physics.cpp.obj
 
 # target to build an object file
 Physics.cpp.obj:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Physics.cpp.obj
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Physics.cpp.obj
 .PHONY : Physics.cpp.obj
 
 Physics.i: Physics.cpp.i
@@ -266,7 +266,7 @@ Physics.i: Physics.cpp.i
 
 # target to preprocess a source file
 Physics.cpp.i:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Physics.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Physics.cpp.i
 .PHONY : Physics.cpp.i
 
 Physics.s: Physics.cpp.s
@@ -275,7 +275,7 @@ Physics.s: Physics.cpp.s
 
 # target to generate assembly for a file
 Physics.cpp.s:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Physics.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Physics.cpp.s
 .PHONY : Physics.cpp.s
 
 # Help Target
@@ -313,6 +313,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -11,13 +11,15 @@
 
 class Vector2 {
 public:
-    float x;
-    float y;
+    double x;
+    double y;
 
-    Vector2(float x, float y);
+    Vector2(double x, double y);
     Vector2();
 
     ~Vector2();
+
+    double size();
 
 
 
@@ -25,9 +27,9 @@ public:
     Vector2 operator+(const Vector2&) const;
     Vector2 operator+=(const Vector2& right);
     Vector2 operator-(const Vector2&) const;
-    Vector2 operator*(float) const;
-    Vector2 operator/(float) const;
-    float operator^(const Vector2&) const;
+    Vector2 operator*(double) const;
+    Vector2 operator/(double) const;
+    double operator^(const Vector2&) const;
 
     std::string toString() const;
 };

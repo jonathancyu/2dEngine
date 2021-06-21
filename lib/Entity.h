@@ -12,10 +12,10 @@
 #include "Math/Quaternion.h"
 
 struct BoundingBox {;
-    float left;
-    float right;
-    float bottom;
-    float top;
+    double left;
+    double right;
+    double bottom;
+    double top;
 };
 struct Force;
 
@@ -25,21 +25,14 @@ public:
     std::string ClassName;
     SDL_Color color;
 
-    float mass;
     bool anchored = false;
-    //Inertial matrices
-    Matrix Ibody, Ibodyinv;
+    //constant quantities
+    double mass;
+    double inertiaTensor;
     //State variables
-    Vector2 position;
-    Matrix rotation;
-    Vector2 momentum;
-    Vector2 angularmomentum;
-    //Derived quantities
-    Matrix Iinv;
-    Vector2 angularVelocity;
-
-    Vector2 velocity;
-
+    Vector2 position, momentum; //position of center of mass
+    double theta, angularmomentum, angularVelocity;
+    Matrix rotationMatrix;
     Vector2 force, torque;
 
     std::list<Force*> forces;
@@ -53,10 +46,7 @@ public:
     virtual BoundingBox getBounds() { return {}; }
     Vector2 getSupport(Vector2 d);
 
-    void computeVariables() {
-        velocity = momentum/mass;
-        Iinv = rotation * Ibodyinv * rotation.transpose();
-    }
+    virtual void computeRotationMatrix() {};
 private:
     virtual std::list<Vector2> getVertices() {
         return {};

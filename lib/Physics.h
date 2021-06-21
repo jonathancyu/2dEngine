@@ -19,7 +19,7 @@ public:
 
     void addEntity(Entity*);
 
-    void step(float delta);
+    void step(double delta);
 
     static bool colliding(Entity* a, Entity* b);
 };

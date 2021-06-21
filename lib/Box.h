@@ -26,10 +26,13 @@ public:
     BoundingBox getBounds() override;
     void draw(SDL_Renderer*);
 
+    void computeRotationMatrix() override;
 
 private:
-    void setSDL_Rect();
+    void computeInertiaTensor();
     std::list<Vector2> getVertices() override;
+
+    void setSDL_Rect();
 };
 
 

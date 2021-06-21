@@ -29,7 +29,7 @@ TEST_CASE("Vector2", "[math]") {
     }
 
     SECTION ("Dot Product") {
-        float result = 2*1 + 3*1;
+        double result = 2*1 + 3*1;
         REQUIRE((a^b) == result);
     }
 }
@@ -40,7 +40,7 @@ TEST_CASE("Matrix", "[math]") {
     Matrix c = Matrix(3, 2);
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            float* row = a[i];
+            double* row = a[i];
             row[j] = j+(i*3);
             row = b[i];
             row[j] = a[i][j]+5;
@@ -53,7 +53,7 @@ TEST_CASE("Matrix", "[math]") {
 
     SECTION("(3x3)x(3x3) Multiplication") {
         Matrix result = a*b;
-        float expected[3][3] = {{30.f, 33.f, 36.f},
+        double expected[3][3] = {{30.f, 33.f, 36.f},
                           {102.f, 114.f, 126.f},
                           {174.f, 195.f, 216.f}};
         for (int i = 0; i < 3; i++) {
@@ -65,7 +65,7 @@ TEST_CASE("Matrix", "[math]") {
 
     SECTION("(3x3)x(3x2) Multiplication") {
         Matrix result = b*c;
-        float expected[3][2] = {{60, 78},
+        double expected[3][2] = {{60, 78},
                                 {87, 114},
                                 {114, 150}};
         for (int i = 0; i < 3; i++) {

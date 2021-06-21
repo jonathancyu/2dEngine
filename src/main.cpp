@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
     Physics physics = Physics();
     physics.addEntity(&cube);
     physics.addEntity(&floor);
-    float lastTick = (float)SDL_GetTicks()/1000;//TODO; velocity in milliseconds or seconds?
+    double lastTick = (double)SDL_GetTicks()/1000;//TODO; velocity in milliseconds or seconds?
 
     while (!quit) {
         //take input
@@ -53,8 +53,8 @@ int main(int argc, char *argv[]) {
             }
         }
         //simulate
-        float currentTick = ( (float)SDL_GetTicks() )/1000;
-        float delta = currentTick-lastTick;
+        double currentTick = ( (double)SDL_GetTicks() )/1000;
+        double delta = currentTick-lastTick;
         lastTick = currentTick;
         physics.step(delta);
         //draw things

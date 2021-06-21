@@ -6,13 +6,14 @@
 //for an arbitrary point p_0 on box,
 //p(t) = R(t)p_0 + x(t)
 #include "Box.h"
+#include <cmath>
 
 Box::Box(int x, int y, int w, int h) {
     color = {0, 0, 0, 0};
     position = Vector2(x, y);
-    velocity = Vector2(0, 0);
     width = w;
     height = h;
+    computeInertiaTensor();
     setSDL_Rect();
 }
 
@@ -22,8 +23,8 @@ Box::Box(int w, int h) : Box(0, 0, w, h) {}
 Box::~Box() {}
 
 
-void Box::setSDL_Rect() {//TODO: maybe round instead of truncate?
-    SDLObject = { (int)position.x, (int)position.y, width, height };
+void Box::setSDL_Rect() {//TODO: maybe round double instead of truncate?
+    SDLObject = { (int)position.x - (width/2), (int)position.y - (height/2), width, height };
 }
 
 void Box::draw(SDL_Renderer* renderer) {
@@ -39,6 +40,21 @@ Entity* Box::clone() {
 void Box::destroy() {
 
 }
+
+void Box::computeRotationMatrix() {
+    rotationMatrix[0][0] = cos(theta);
+    rotationMatrix[0][1] = -sin(theta);
+    rotationMatrix[1][0] = sin(theta);
+    rotationMatrix[1][1] = cos(theta);
+}
+
+void Box::computeInertiaTensor() {
+    //integral over surface of r^2
+    //integral(integral(x^2+y^2, y, -height/2, height/2), x, -width/2, width/2)
+    //1/12(w^3h + wh^3) = (1/12) (wh)(w^2 + h^2)
+    inertiaTensor = (1.f/12) * (double)((width*height) * (width*width + height*height));
+}
+
 
 BoundingBox Box::getBounds() {
     return (BoundingBox) {position.x,

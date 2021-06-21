@@ -8,8 +8,8 @@
 
 class Quaternion {
 public:
-    float r, i, j, k;
-    Quaternion(float newR, float newI, float newJ, float newK);
+    double r, i, j, k;
+    Quaternion(double newR, double newI, double newJ, double newK);
     Quaternion(Matrix rotation);
     Quaternion();
     Matrix toMatrix();

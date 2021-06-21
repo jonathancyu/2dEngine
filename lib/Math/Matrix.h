@@ -8,7 +8,7 @@
 
 class Matrix {
 private:
-    float** values;
+    double** values;
 public:
     int rows;
     int columns;
@@ -16,12 +16,12 @@ public:
     Matrix(int d);
     Matrix();
 
-    Matrix(int r, int c, float** vals);
+    Matrix(int r, int c, double** vals);
 
     ~Matrix();
 
     Matrix operator*(Matrix other);
-    float* operator[](int i);
+    double* operator[](int i);
     bool operator==(Matrix other);
 
     Matrix transpose();

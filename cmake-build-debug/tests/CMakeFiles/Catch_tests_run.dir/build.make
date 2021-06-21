@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\yucjo\Documents\2021 summer\Engine"
+CMAKE_SOURCE_DIR = "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/catch_tests_run.dir/depend.make
@@ -78,44 +78,44 @@ include tests/CMakeFiles/catch_tests_run.dir/flags.make
 tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.obj: tests/CMakeFiles/catch_tests_run.dir/flags.make
 tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.obj: tests/CMakeFiles/catch_tests_run.dir/includes_CXX.rsp
 tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.obj: ../tests/MathTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.obj"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch_tests_run.dir\MathTests.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\Engine\tests\MathTests.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.obj"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch_tests_run.dir\MathTests.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\MathTests.cpp"
 
 tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/catch_tests_run.dir/MathTests.cpp.i"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\Engine\tests\MathTests.cpp" > CMakeFiles\catch_tests_run.dir\MathTests.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\MathTests.cpp" > CMakeFiles\catch_tests_run.dir\MathTests.cpp.i
 
 tests/CMakeFiles/catch_tests_run.dir/MathTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch_tests_run.dir/MathTests.cpp.s"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\Engine\tests\MathTests.cpp" -o CMakeFiles\catch_tests_run.dir\MathTests.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\MathTests.cpp" -o CMakeFiles\catch_tests_run.dir\MathTests.cpp.s
 
 tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.obj: tests/CMakeFiles/catch_tests_run.dir/flags.make
 tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.obj: tests/CMakeFiles/catch_tests_run.dir/includes_CXX.rsp
 tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.obj: ../tests/CollisionTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.obj"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch_tests_run.dir\CollisionTests.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\Engine\tests\CollisionTests.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.obj"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch_tests_run.dir\CollisionTests.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\CollisionTests.cpp"
 
 tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.i"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\Engine\tests\CollisionTests.cpp" > CMakeFiles\catch_tests_run.dir\CollisionTests.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\CollisionTests.cpp" > CMakeFiles\catch_tests_run.dir\CollisionTests.cpp.i
 
 tests/CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch_tests_run.dir/CollisionTests.cpp.s"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\Engine\tests\CollisionTests.cpp" -o CMakeFiles\catch_tests_run.dir\CollisionTests.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\CollisionTests.cpp" -o CMakeFiles\catch_tests_run.dir\CollisionTests.cpp.s
 
 tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.obj: tests/CMakeFiles/catch_tests_run.dir/flags.make
 tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.obj: tests/CMakeFiles/catch_tests_run.dir/includes_CXX.rsp
 tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.obj: ../tests/catch_amalgamated.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.obj"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch_tests_run.dir\catch_amalgamated.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\Engine\tests\catch_amalgamated.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.obj"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\catch_tests_run.dir\catch_amalgamated.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\catch_amalgamated.cpp"
 
 tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.i"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\Engine\tests\catch_amalgamated.cpp" > CMakeFiles\catch_tests_run.dir\catch_amalgamated.cpp.i
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\catch_amalgamated.cpp" > CMakeFiles\catch_tests_run.dir\catch_amalgamated.cpp.i
 
 tests/CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch_tests_run.dir/catch_amalgamated.cpp.s"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\Engine\tests\catch_amalgamated.cpp" -o CMakeFiles\catch_tests_run.dir\catch_amalgamated.cpp.s
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests\catch_amalgamated.cpp" -o CMakeFiles\catch_tests_run.dir\catch_amalgamated.cpp.s
 
 # Object files for target catch_tests_run
 catch_tests_run_OBJECTS = \
@@ -134,8 +134,8 @@ tests/catch_tests_run.exe: lib/liblibraries.a
 tests/catch_tests_run.exe: tests/CMakeFiles/catch_tests_run.dir/linklibs.rsp
 tests/catch_tests_run.exe: tests/CMakeFiles/catch_tests_run.dir/objects1.rsp
 tests/catch_tests_run.exe: tests/CMakeFiles/catch_tests_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable catch_tests_run.exe"
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\catch_tests_run.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable catch_tests_run.exe"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\catch_tests_run.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/catch_tests_run.dir/build: tests/catch_tests_run.exe
@@ -143,10 +143,10 @@ tests/CMakeFiles/catch_tests_run.dir/build: tests/catch_tests_run.exe
 .PHONY : tests/CMakeFiles/catch_tests_run.dir/build
 
 tests/CMakeFiles/catch_tests_run.dir/clean:
-	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\Engine\CMAKE-~1\tests && $(CMAKE_COMMAND) -P CMakeFiles\catch_tests_run.dir\cmake_clean.cmake
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\tests && $(CMAKE_COMMAND) -P CMakeFiles\catch_tests_run.dir\cmake_clean.cmake
 .PHONY : tests/CMakeFiles/catch_tests_run.dir/clean
 
 tests/CMakeFiles/catch_tests_run.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\yucjo\Documents\2021 summer\Engine" "C:\Users\yucjo\Documents\2021 summer\Engine\tests" "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug" "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\tests" "C:\Users\yucjo\Documents\2021 summer\Engine\cmake-build-debug\tests\CMakeFiles\Catch_tests_run.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine" "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\tests" "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug" "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\tests" "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\tests\CMakeFiles\Catch_tests_run.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : tests/CMakeFiles/catch_tests_run.dir/depend
 

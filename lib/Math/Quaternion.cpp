@@ -4,7 +4,7 @@
 
 #include "Quaternion.h"
 
-Quaternion::Quaternion(float newR, float newI, float newJ, float newK) {
+Quaternion::Quaternion(double newR, double newI, double newJ, double newK) {
     r = newR;
     i = newI;
     j = newJ;

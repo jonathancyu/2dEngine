@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/yucjo/Documents/2021 summer/Engine/src/main.cpp" "C:/Users/yucjo/Documents/2021 summer/Engine/cmake-build-debug/CMakeFiles/Engine_run.dir/src/main.cpp.obj"
+  "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/src/main.cpp" "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/CMakeFiles/Engine_run.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/yucjo/Documents/2021 summer/Engine/cmake-build-debug/lib/CMakeFiles/libraries.dir/DependInfo.cmake"
+  "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/lib/CMakeFiles/libraries.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

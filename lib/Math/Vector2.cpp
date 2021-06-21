@@ -3,8 +3,9 @@
 //
 
 #include "Vector2.h"
+#include <cmath>
 
-Vector2::Vector2(float _x, float _y) {
+Vector2::Vector2(double _x, double _y) {
     x = _x;
     y = _y;
 }
@@ -32,15 +33,15 @@ Vector2 Vector2::operator-(const Vector2& right) const {
     return Vector2(x - right.x, y - right.y);
 }
 
-Vector2 Vector2::operator*(float right) const {
+Vector2 Vector2::operator*(double right) const {
     return Vector2(x * right, y * right);
 }
 
-Vector2 Vector2::operator/(float right) const {
+Vector2 Vector2::operator/(double right) const {
     return Vector2(x / right, y / right);
 }
 
-float Vector2::operator^(const Vector2& right) const {
+double Vector2::operator^(const Vector2& right) const {
     return x*right.x + y*right.y;
 }
 std::string Vector2::toString() const {
@@ -49,4 +50,8 @@ std::string Vector2::toString() const {
     result += ", ";
     result += (char)y;
     return result + ">";
+}
+
+double Vector2::size() {
+    return  sqrt(x*x + y*x);
 }

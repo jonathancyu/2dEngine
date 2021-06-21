@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/yucjo/Documents/2021 summer/Engine/tests
+# Install script for directory: C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
