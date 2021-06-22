@@ -8,6 +8,18 @@ lib/CMakeFiles/libraries.dir/Box.cpp.obj: ../lib/Entity.h
 lib/CMakeFiles/libraries.dir/Box.cpp.obj: ../lib/Math/Quaternion.h
 lib/CMakeFiles/libraries.dir/Box.cpp.obj: ../lib/Math/Vector2.h
 
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Math/Matrix.h
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Box.h
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Engine.cpp
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Engine.h
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Entity.h
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Math/Quaternion.h
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Math/Vector2.h
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Physics.h
+
+lib/CMakeFiles/libraries.dir/Graphics.cpp.obj: ../lib/Graphics.cpp
+lib/CMakeFiles/libraries.dir/Graphics.cpp.obj: ../lib/Graphics.h
+
 lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.obj: ../lib/Math/Matrix.cpp
 lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.obj: ../lib/Math/Matrix.h
 
