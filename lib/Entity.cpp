@@ -1,5 +1,6 @@
 #include "Entity.h"
 
+
 Vector2 Entity::getSupport(Vector2 d) {
     std::list<Vector2> vertices = getVertices();
 

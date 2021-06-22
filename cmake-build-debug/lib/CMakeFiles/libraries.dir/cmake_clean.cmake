@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libraries.dir/Box.cpp.obj"
+  "CMakeFiles/libraries.dir/Engine.cpp.obj"
+  "CMakeFiles/libraries.dir/Graphics.cpp.obj"
   "CMakeFiles/libraries.dir/Math/Matrix.cpp.obj"
   "CMakeFiles/libraries.dir/Math/Quaternion.cpp.obj"
   "CMakeFiles/libraries.dir/Math/Vector2.cpp.obj"

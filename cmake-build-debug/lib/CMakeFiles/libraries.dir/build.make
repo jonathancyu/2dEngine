@@ -117,10 +117,24 @@ lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libraries.dir/Math/Quaternion.cpp.s"
 	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Math\Quaternion.cpp" -o CMakeFiles\libraries.dir\Math\Quaternion.cpp.s
 
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: lib/CMakeFiles/libraries.dir/flags.make
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: lib/CMakeFiles/libraries.dir/includes_CXX.rsp
+lib/CMakeFiles/libraries.dir/Engine.cpp.obj: ../lib/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/libraries.dir/Engine.cpp.obj"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\libraries.dir\Engine.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Engine.cpp"
+
+lib/CMakeFiles/libraries.dir/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libraries.dir/Engine.cpp.i"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Engine.cpp" > CMakeFiles\libraries.dir\Engine.cpp.i
+
+lib/CMakeFiles/libraries.dir/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libraries.dir/Engine.cpp.s"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Engine.cpp" -o CMakeFiles\libraries.dir\Engine.cpp.s
+
 lib/CMakeFiles/libraries.dir/Physics.cpp.obj: lib/CMakeFiles/libraries.dir/flags.make
 lib/CMakeFiles/libraries.dir/Physics.cpp.obj: lib/CMakeFiles/libraries.dir/includes_CXX.rsp
 lib/CMakeFiles/libraries.dir/Physics.cpp.obj: ../lib/Physics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/libraries.dir/Physics.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/libraries.dir/Physics.cpp.obj"
 	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\libraries.dir\Physics.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Physics.cpp"
 
 lib/CMakeFiles/libraries.dir/Physics.cpp.i: cmake_force
@@ -134,7 +148,7 @@ lib/CMakeFiles/libraries.dir/Physics.cpp.s: cmake_force
 lib/CMakeFiles/libraries.dir/Box.cpp.obj: lib/CMakeFiles/libraries.dir/flags.make
 lib/CMakeFiles/libraries.dir/Box.cpp.obj: lib/CMakeFiles/libraries.dir/includes_CXX.rsp
 lib/CMakeFiles/libraries.dir/Box.cpp.obj: ../lib/Box.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/libraries.dir/Box.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/libraries.dir/Box.cpp.obj"
 	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\libraries.dir\Box.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Box.cpp"
 
 lib/CMakeFiles/libraries.dir/Box.cpp.i: cmake_force
@@ -145,13 +159,29 @@ lib/CMakeFiles/libraries.dir/Box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libraries.dir/Box.cpp.s"
 	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Box.cpp" -o CMakeFiles\libraries.dir\Box.cpp.s
 
+lib/CMakeFiles/libraries.dir/Graphics.cpp.obj: lib/CMakeFiles/libraries.dir/flags.make
+lib/CMakeFiles/libraries.dir/Graphics.cpp.obj: lib/CMakeFiles/libraries.dir/includes_CXX.rsp
+lib/CMakeFiles/libraries.dir/Graphics.cpp.obj: ../lib/Graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/libraries.dir/Graphics.cpp.obj"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\libraries.dir\Graphics.cpp.obj -c "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Graphics.cpp"
+
+lib/CMakeFiles/libraries.dir/Graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libraries.dir/Graphics.cpp.i"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Graphics.cpp" > CMakeFiles\libraries.dir\Graphics.cpp.i
+
+lib/CMakeFiles/libraries.dir/Graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libraries.dir/Graphics.cpp.s"
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\lib\Graphics.cpp" -o CMakeFiles\libraries.dir\Graphics.cpp.s
+
 # Object files for target libraries
 libraries_OBJECTS = \
 "CMakeFiles/libraries.dir/Math/Vector2.cpp.obj" \
 "CMakeFiles/libraries.dir/Math/Matrix.cpp.obj" \
 "CMakeFiles/libraries.dir/Math/Quaternion.cpp.obj" \
+"CMakeFiles/libraries.dir/Engine.cpp.obj" \
 "CMakeFiles/libraries.dir/Physics.cpp.obj" \
-"CMakeFiles/libraries.dir/Box.cpp.obj"
+"CMakeFiles/libraries.dir/Box.cpp.obj" \
+"CMakeFiles/libraries.dir/Graphics.cpp.obj"
 
 # External object files for target libraries
 libraries_EXTERNAL_OBJECTS =
@@ -159,11 +189,13 @@ libraries_EXTERNAL_OBJECTS =
 lib/liblibraries.a: lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.obj
 lib/liblibraries.a: lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.obj
 lib/liblibraries.a: lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.obj
+lib/liblibraries.a: lib/CMakeFiles/libraries.dir/Engine.cpp.obj
 lib/liblibraries.a: lib/CMakeFiles/libraries.dir/Physics.cpp.obj
 lib/liblibraries.a: lib/CMakeFiles/libraries.dir/Box.cpp.obj
+lib/liblibraries.a: lib/CMakeFiles/libraries.dir/Graphics.cpp.obj
 lib/liblibraries.a: lib/CMakeFiles/libraries.dir/build.make
 lib/liblibraries.a: lib/CMakeFiles/libraries.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblibraries.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\yucjo\Documents\2021 summer\ImpulseEngine\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library liblibraries.a"
 	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && $(CMAKE_COMMAND) -P CMakeFiles\libraries.dir\cmake_clean_target.cmake
 	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\libraries.dir\link.txt --verbose=$(VERBOSE)
 

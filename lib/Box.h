@@ -8,31 +8,32 @@
 
 #include "Entity.h"
 #include <SDL2/SDL.h>
+#define DENSITY 1
 
 class Box : public Entity {
 public:
     int width, height;
-    SDL_Rect SDLObject;
+    SDL_Rect fillRect;
 
-    Box(int x, int y, int w, int h);
-    Box();
-    Box(int w, int h);
+    Box(int x, int y, int w, int h, SDL_Renderer* r);
+    Box(SDL_Renderer* r);
+    Box(int w, int h, SDL_Renderer* r);
     ~Box();
 
 
     Entity* clone();
-    void destroy();
 
     BoundingBox getBounds() override;
-    void draw(SDL_Renderer*);
-
     void computeRotationMatrix() override;
+
+    void draw() override;
 
 private:
     void computeInertiaTensor();
     std::list<Vector2> getVertices() override;
 
-    void setSDL_Rect();
+    void SDL_init(SDL_Renderer *renderer);
+    void SDL_update();
 };
 
 

@@ -31,7 +31,7 @@ public:
     double inertiaTensor;
     //State variables
     Vector2 position, momentum; //position of center of mass
-    double theta, angularmomentum, angularVelocity;
+    double theta, angularMomentum;
     Matrix rotationMatrix;
     Vector2 force, torque;
 
@@ -40,13 +40,18 @@ public:
     Entity() {}
     virtual ~Entity() {}
     virtual Entity* clone() { return nullptr; }
-    virtual void destroy() {}
 
     //physics functions
     virtual BoundingBox getBounds() { return {}; }
     Vector2 getSupport(Vector2 d);
 
     virtual void computeRotationMatrix() {};
+
+    //rendering stuff
+    SDL_Renderer* renderer;
+    SDL_Texture* texture;
+    virtual void draw() {};
+
 private:
     virtual std::list<Vector2> getVertices() {
         return {};

@@ -8,37 +8,48 @@
 #include "Box.h"
 #include <cmath>
 
-Box::Box(int x, int y, int w, int h) {
+Box::Box(int x, int y, int w, int h, SDL_Renderer* r) {
     color = {0, 0, 0, 0};
     position = Vector2(x, y);
     width = w;
     height = h;
+    mass = width*height*DENSITY;
+    theta = 0;
+
     computeInertiaTensor();
-    setSDL_Rect();
+    renderer = r;
+    SDL_init(renderer);
 }
 
-Box::Box() : Box(0, 0, 0, 0){}
-Box::Box(int w, int h) : Box(0, 0, w, h) {}
+Box::Box(SDL_Renderer* r) : Box(0, 0, 0, 0, r){}
+Box::Box(int w, int h, SDL_Renderer* r) : Box(0, 0, w, h, r) {}
 
-Box::~Box() {}
-
-
-void Box::setSDL_Rect() {//TODO: maybe round double instead of truncate?
-    SDLObject = { (int)position.x - (width/2), (int)position.y - (height/2), width, height };
+Box::~Box() {
+    SDL_DestroyTexture(texture);
 }
 
-void Box::draw(SDL_Renderer* renderer) {
-    setSDL_Rect();
+
+void Box::SDL_init(SDL_Renderer* renderer) {//TODO: maybe round double instead of truncate?
+    texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, 600, 400);
+}
+
+void Box::SDL_update() {
+    fillRect = { (int)position.x - (width/2), (int)position.y - (height/2), width, height };
+}
+
+void Box::draw() {
+    SDL_update();
+    SDL_SetRenderTarget(renderer, texture);
     SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);
-    SDL_RenderFillRect(renderer, &SDLObject);
+    SDL_RenderClear(renderer);
+    SDL_RenderFillRect( renderer, &fillRect );
+    SDL_SetRenderTarget(renderer, nullptr);
+    SDL_Point center = {width/2, height/2};
+    SDL_RenderCopyEx( renderer, texture, &fillRect, &fillRect, theta, &center, SDL_FLIP_NONE);;
 }
 
 Entity* Box::clone() {
-    return new Box();
-}
-
-void Box::destroy() {
-
+    return new Box(renderer);
 }
 
 void Box::computeRotationMatrix() {

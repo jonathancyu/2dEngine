@@ -2,16 +2,20 @@ set(header_files
         Math/Vector2.h
         Math/Matrix.h
         Math/Quaternion.h
+        Engine.h
         Entity.h
         Physics.h
         Box.h
+        Graphics.h
         )
 set(source_files
         Math/Vector2.cpp
         Math/Matrix.cpp
         Math/Quaternion.cpp
+        Engine.cpp
         Physics.cpp
         Box.cpp
+        Graphics.cpp
         )
 
 find_package(SDL2 REQUIRED)

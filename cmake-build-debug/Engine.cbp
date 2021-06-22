@@ -176,7 +176,19 @@
 		<Unit filename="C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Box.h">
 			<Option target="libraries"/>
 		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Engine.cpp">
+			<Option target="libraries"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Engine.h">
+			<Option target="libraries"/>
+		</Unit>
 		<Unit filename="C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Entity.h">
+			<Option target="libraries"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Graphics.cpp">
+			<Option target="libraries"/>
+		</Unit>
+		<Unit filename="C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Graphics.h">
 			<Option target="libraries"/>
 		</Unit>
 		<Unit filename="C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Math/Matrix.cpp">

@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Box.cpp" "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/lib/CMakeFiles/libraries.dir/Box.cpp.obj"
+  "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Engine.cpp" "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/lib/CMakeFiles/libraries.dir/Engine.cpp.obj"
+  "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Graphics.cpp" "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/lib/CMakeFiles/libraries.dir/Graphics.cpp.obj"
   "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Math/Matrix.cpp" "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/lib/CMakeFiles/libraries.dir/Math/Matrix.cpp.obj"
   "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Math/Quaternion.cpp" "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/lib/CMakeFiles/libraries.dir/Math/Quaternion.cpp.obj"
   "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/lib/Math/Vector2.cpp" "C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/cmake-build-debug/lib/CMakeFiles/libraries.dir/Math/Vector2.cpp.obj"

@@ -5,6 +5,7 @@
 #include "Physics.h"
 #include "Math/Vector2.h"
 #include <list>
+#include <iostream>
 
 #define GRAVITY Vector2(0, 9.8)
 
@@ -23,19 +24,19 @@ void Physics::step(double delta) {
     for (Entity* object : entities) {
         if (object->anchored) continue;
         //compute force and torque
-        Vector2 force;
-        double torque = 0.1;
+        Vector2 force = GRAVITY * object->mass;
+        double torque;
 
         //apply forces/torques
-        Vector2 velocity = GRAVITY * object->mass;
-        velocity += object->momentum/object->mass;
-        double angularVelocity = object->angularmomentum/object->inertiaTensor;
+        Vector2 velocity = (force/object->mass);
+                velocity += object->momentum/object->mass;
         object->position += velocity * delta;
-        object->theta += angularVelocity * delta;
 
+        object->angularMomentum += torque * delta;
+        double angularVelocity = object->angularMomentum / object->inertiaTensor;
+        object->theta += angularVelocity * delta;
         //compute new rotation matrix
         object->computeRotationMatrix();
-        //TODO: implement rectangle rotation
     }
 }
 

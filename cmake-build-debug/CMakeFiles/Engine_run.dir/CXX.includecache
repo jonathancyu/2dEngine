@@ -12,6 +12,16 @@ Entity.h
 SDL2/SDL.h
 -
 
+../lib/Engine.h
+SDL2/SDL.h
+-
+Box.h
+../lib/Box.h
+Physics.h
+../lib/Physics.h
+exception
+-
+
 ../lib/Entity.h
 list
 -
@@ -47,12 +57,6 @@ list
 C:/Users/yucjo/Documents/2021 summer/ImpulseEngine/src/main.cpp
 iostream
 -
-SDL2/SDL.h
--
-cmath
--
-Box.h
--
-Physics.h
+Engine.h
 -
 

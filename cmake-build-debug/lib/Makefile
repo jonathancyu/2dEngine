@@ -170,6 +170,60 @@ Box.cpp.s:
 	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Box.cpp.s
 .PHONY : Box.cpp.s
 
+Engine.obj: Engine.cpp.obj
+
+.PHONY : Engine.obj
+
+# target to build an object file
+Engine.cpp.obj:
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Engine.cpp.obj
+.PHONY : Engine.cpp.obj
+
+Engine.i: Engine.cpp.i
+
+.PHONY : Engine.i
+
+# target to preprocess a source file
+Engine.cpp.i:
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Engine.cpp.i
+.PHONY : Engine.cpp.i
+
+Engine.s: Engine.cpp.s
+
+.PHONY : Engine.s
+
+# target to generate assembly for a file
+Engine.cpp.s:
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Engine.cpp.s
+.PHONY : Engine.cpp.s
+
+Graphics.obj: Graphics.cpp.obj
+
+.PHONY : Graphics.obj
+
+# target to build an object file
+Graphics.cpp.obj:
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Graphics.cpp.obj
+.PHONY : Graphics.cpp.obj
+
+Graphics.i: Graphics.cpp.i
+
+.PHONY : Graphics.i
+
+# target to preprocess a source file
+Graphics.cpp.i:
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Graphics.cpp.i
+.PHONY : Graphics.cpp.i
+
+Graphics.s: Graphics.cpp.s
+
+.PHONY : Graphics.s
+
+# target to generate assembly for a file
+Graphics.cpp.s:
+	cd /d C:\Users\yucjo\DOCUME~1\2021SU~1\IMPULS~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libraries.dir\build.make lib/CMakeFiles/libraries.dir/Graphics.cpp.s
+.PHONY : Graphics.cpp.s
+
 Math/Matrix.obj: Math/Matrix.cpp.obj
 
 .PHONY : Math/Matrix.obj
@@ -290,6 +344,12 @@ help:
 	@echo ... Box.obj
 	@echo ... Box.i
 	@echo ... Box.s
+	@echo ... Engine.obj
+	@echo ... Engine.i
+	@echo ... Engine.s
+	@echo ... Graphics.obj
+	@echo ... Graphics.i
+	@echo ... Graphics.s
 	@echo ... Math/Matrix.obj
 	@echo ... Math/Matrix.i
 	@echo ... Math/Matrix.s
